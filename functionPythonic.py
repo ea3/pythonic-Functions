@@ -24,5 +24,12 @@ def reverse(word):
 
 print(sorted(fruits, key=reverse))
 
+print(list(map(fact, range(6))))
+print([fact(n) for n in range(6)])
+print(list(map(factorial, filter(lambda n: n % 2, range(6)))))
+print([factorial(n) for n in range(6) if n % 2])
+print(dir(factorial))
+
+
 # Higher order functions in Python.
 
